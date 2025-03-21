@@ -1,0 +1,108 @@
+
+a {
+    text-decoration: none;
+}
+
+a :hover{
+    text-decoration: none;
+}
+
+/* Navbar styling */
+#navbar {
+    background-color: #406477 !important;
+    padding: 10px 20px;
+}
+
+/* Ensuring text color is white */
+#navbar .nav-link {
+    font-size: 1.2rem;
+    color: white !important;
+    margin-right: 30px;
+    
+}
+
+#navbar .nav-link:hover {
+    text-decoration: none;
+    transition: 0.4s;
+    color:#3d96c5 !important;
+}
+
+/* Adjusting logo size */
+#navbar .navbar-brand img {
+    width: 70px;
+    height: 70px;
+}
+
+#home {
+    background: linear-gradient(rgba(64, 100, 119, 0.7), rgba(64, 100, 119, 0.7)), 
+                url('../assets/background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+    position: relative;
+}
+
+#learn-more-btn {
+    background-color: #3d96c5;
+    color: white;
+    padding: 10px 60px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#learn-more-btn:hover {
+    background-color: #357fa3;
+    text-decoration: none;
+    color: white;
+}
+.title_text {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+
+.about_text{
+    font-size: 50px;
+}
+#about-us {
+    text-align: left;
+    padding: 50px 0;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.about-img-low {
+    margin-top: 60px;
+}
+
+.about-img-high {
+    margin-top: 0px;
+}
+
+#read-more-btn {
+    background-color: #3d96c5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#read-more-btn:hover {
+    background-color: #357fa3;
+    text-decoration: none;
+    color: white;
+}
